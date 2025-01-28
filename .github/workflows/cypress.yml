@@ -22,11 +22,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'pnpm'
 
       # Instalar o pnpm
       - name: Install pnpm
         run: npm install -g pnpm
+
+      # Verificar instalação do pnpm
+      - name: Verify pnpm version
+        run: pnpm --version
 
       # Instalar dependências
       - name: Install dependencies
@@ -45,3 +48,4 @@ jobs:
           path: |
             cypress/videos/
             cypress/screenshots/
+

@@ -24,7 +24,7 @@ jobs:
           node-version: 16
           cache: 'pnpm'
 
-      # Instalar pnpm
+      # Instalar o pnpm
       - name: Install pnpm
         run: npm install -g pnpm
 

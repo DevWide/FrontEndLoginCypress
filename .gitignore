@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Logs e caches
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE/Editor
+.idea/
+.vscode/
+*.swp
+
+# Arquivos de ambiente
+.env
